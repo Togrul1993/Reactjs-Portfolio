@@ -9,7 +9,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import project1 from '../image/Proje1.jpg';
 import project2 from '../image/Proje2.jpg';
 import project3 from '../image/Proje3.jpg';
-import project4 from '../image/Proje4.jpg';
 import project5 from '../image/Proje5.jpg';
 import project6 from '../image/Proje6.jpg';
 
@@ -25,12 +24,14 @@ const useStyles = makeStyles({
 	}
 })
 
+
 const Portfolio = () => {
 	const classes = useStyles();
 	return (
 		<Box component="div" className={classes.mainContainer}>
 			<Navbar />
 			<Grid container justify="center">
+
 				{/*Project 1 */}
 				<Grid item xs={12} sm={8} md={5} lg={4}>
 					<Card className={classes.cardContainer}>
@@ -38,24 +39,19 @@ const Portfolio = () => {
 							<CardMedia component="img" alt="Project 1" height="135" image={project1} />
 							<CardContent>
 								<Typography gutterBottom variant="h5">
-									Project 1
+									HTML & CSS
 								</Typography>
 								
 								<Typography variant="body2" color="textSecondary" component="p">
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+									Navbar,Footer,Section,Responsive
 								</Typography>
 							</CardContent>
 							</CardActionArea>
 							<CardActions>
-								<Button size="small" color="primary">
-									Share
+								<Button size="small" color="primary" href="https://github.com/Togrul1993/Html-Css-Proje/tree/master/html">
+									Click Me
 								</Button>
 								
-								<Button 
-									size="small" 
-									color="primary">	
-								Live Demo
-								</Button>
 							</CardActions>
 						
 					</Card>
@@ -68,24 +64,17 @@ const Portfolio = () => {
 						<CardMedia component="img" alt="Project 2" height="135" image={project2} />
 						<CardContent>
 							<Typography gutterBottom variant="h5">
-								Project 2
+								Reactjs & Form
 							</Typography>
 							
-							<Typography variant="body2" color="textSecondary" component="p">
-								Lorem Ipsum is simply dummy text of the printing and 
-								typesetting industry. 
+								<Typography variant="body2" color="textSecondary" component="p">
+									Reactjs,Hooks,ContextApi
 							</Typography>
 							</CardContent>
 							</CardActionArea>
 						<CardActions>
-							<Button size="small" color="primary">
-								Share
-							</Button>
-							
-							<Button 
-								size="small" 
-								color="primary">	
-							Live Demo
+							<Button size="small" color="primary" href="https://github.com/Togrul1993/Reakt_Form_Css_Html_Js">
+								Click Me
 							</Button>
 						</CardActions>
 					
@@ -96,28 +85,21 @@ const Portfolio = () => {
 			<Grid item xs={12} sm={8} md={5} lg={4}>
 			<Card className={classes.cardContainer}>
 				<CardActionArea>
-					<CardMedia component="img" alt="Project 3" height="135" image={project3} />
+					<CardMedia component="img" alt="Project 3" height="135" image={project1} />
 					<CardContent>
 						<Typography gutterBottom variant="h5">
-							Project 3
+							Html & Css & JavaScript
 						</Typography>
 						
-						<Typography variant="body2" color="textSecondary" component="p">
-							Lorem Ipsum is simply dummy text of the printing and 
-							typesetting industry. 
+								<Typography variant="body2" color="textSecondary" component="p">
+									Animals Clear Web Site
 						</Typography>
 							</CardContent>
 							</CardActionArea>
-					<CardActions>
-						<Button size="small" color="primary">
-							Share
-						</Button>
-						
-						<Button 
-							size="small" 
-							color="primary">	
-						Live Demo
-						</Button>
+						<CardActions>
+							<Button size="small" color="primary" href="https://github.com/Togrul1993/Animals_Clear_WebSite">
+								Click Me
+							</Button>
 					</CardActions>
 				
 			</Card>
@@ -127,28 +109,21 @@ const Portfolio = () => {
 			<Grid item xs={12} sm={8} md={5} lg={4}>
 			<Card className={classes.cardContainer}>
 				<CardActionArea>
-					<CardMedia component="img" alt="Project 4" height="135" image={project4} />
+					<CardMedia component="img" alt="Project 4" height="135" image={project5} />
 					<CardContent>
 						<Typography gutterBottom variant="h5">
-							Project 4
+							Reactjs Web Site (1)
 						</Typography>
 						
-						<Typography variant="body2" color="textSecondary" component="p">
-							Lorem Ipsum is simply dummy text of the printing and 
-							typesetting industry. 
+								<Typography variant="body2" color="textSecondary" component="p">
+									Reactjs,Card,Carousel,Footer,Header
 						</Typography>
 							</CardContent>
 							</CardActionArea>
-					<CardActions>
-						<Button size="small" color="primary">
-							Share
-						</Button>
-						
-						<Button 
-							size="small" 
-							color="primary">	
-						Live Demo
-						</Button>
+						<CardActions>
+							<Button size="small" color="primary" href="https://github.com/Togrul1993/Reactjs_WebSite_Card_Carousel_Footer_Headr">
+								Click Me
+							</Button>
 					</CardActions>
 				
 			</Card>
@@ -158,28 +133,21 @@ const Portfolio = () => {
 			<Grid item xs={12} sm={8} md={5} lg={4}>
 			<Card className={classes.cardContainer}>
 				<CardActionArea>
-					<CardMedia component="img" alt="Project 5" height="135" image={project5} />
+					<CardMedia component="img" alt="Project 5" height="135" image={project3} />
 					<CardContent>
 						<Typography gutterBottom variant="h5">
-							Project 5
+							ReactJS & ContextApi
 						</Typography>
 						
-						<Typography variant="body2" color="textSecondary" component="p">
-							Lorem Ipsum is simply dummy text of the printing and 
-							typesetting industry. 
+								<Typography variant="body2" color="textSecondary" component="p">
+									Waether Proje
 						</Typography>
 							</CardContent>
 							</CardActionArea>
-					<CardActions>
-						<Button size="small" color="primary">
-							Share
-						</Button>
-						
-						<Button 
-							size="small" 
-							color="primary">	
-						Live Demo
-						</Button>
+						<CardActions>
+							<Button size="small" color="primary" href="https://github.com/Togrul1993/Reactjs-Waether-Api">
+								Click Me
+							</Button>
 					</CardActions>
 				
 			</Card>
@@ -192,25 +160,18 @@ const Portfolio = () => {
 					<CardMedia component="img" alt="Project 6" height="135" image={project6} />
 					<CardContent>
 						<Typography gutterBottom variant="h5">
-							Project 6
+							ReactJs & Portfolio
 						</Typography>
 						
-						<Typography variant="body2" color="textSecondary" component="p">
-							Lorem Ipsum is simply dummy text of the printing and 
-							typesetting industry. 
+								<Typography variant="body2" color="textSecondary" component="p">
+									ReactJs & Portfolio
 						</Typography>
 							</CardContent>
 							</CardActionArea>
-					<CardActions>
-						<Button size="small" color="primary">
-							Share
-						</Button>
-						
-						<Button 
-							size="small" 
-							color="primary">	
-						Live Demo
-						</Button>
+						<CardActions>
+							<Button size="small" color="primary" href="https://github.com/Togrul1993/React-Js-Portfolio">
+								Click Me
+							</Button>
 					</CardActions>
 				
 			</Card>

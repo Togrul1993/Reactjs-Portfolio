@@ -17,7 +17,7 @@ import {
 } from '@material-ui/core';
 
 import { 
-	ArrowBack,
+	Menu,
 	AssignmentInd,
 	Home,
 	Apps,
@@ -92,7 +92,8 @@ const Navbar = () => {
 	const sideList = slider => (
 		<Box
 			className={clases.menuSliderContainer} component="div"
-			onClick={toggleSlider(slider,false)}
+			onClick={toggleSlider(slider, false)}
+			
 		>
 			<Avatar className={clases.avatar} src={avatar} alt="Avatar" />
 			<Divider />
@@ -116,11 +117,11 @@ const Navbar = () => {
 				<AppBar position="static" style={{backgroundColor:"#222"}}> 
 					<Toolbar>
 						<IconButton onClick={toggleSlider("right",true)}>
-							<ArrowBack style={{color:"tomato"}}/>
+							<Menu style={{color:"white",fontSize:"38px",marginLeft:"15px"}}/>
 						</IconButton>
 
-						<Typography variant="h5" style={{color:"tan "}}>
-							Portfolio
+						<Typography variant="h5" style={{color:"tan",marginLeft:"10px"}}>
+							Togrul Salmanli (Portfolio)
 								
 						</Typography>
 						

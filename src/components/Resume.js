@@ -164,17 +164,17 @@ const Resume = () => {
 					</Typography>
 					<Box component="div" className={classes.timeLineItem}>
 						<Typography variant="h5" align="center" className={classes.subHeading}>
-							Web Desing
+							Afisant
 						</Typography>
 
 						<Typography variant="body1" 
 							align="center">
-							company name whre worked	
+							Abseron Hotel	
 						</Typography>
 
 						<Typography variant="subtitle1" 
-						align="center">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. 	
+							align="center">
+							Musterileri qarsilamaq isteklerini prablemsiz hell etmek
 						</Typography>
 						
 					</Box>
@@ -185,14 +185,13 @@ const Resume = () => {
 					</Typography>
 					<Box component="div" className={classes.timeLineItem}>
 						<Typography variant="h5" align="center" className={classes.subHeading}>
-							Html & Css						
+							HR (Practice)						
 						</Typography>
 						<Typography variant="body1" align="center">
-							company name whre worked							
+							Azinka						
 						</Typography>
 						<Typography variant="subtitle1" align="center">
-							Lorem Ipsum is simply dummy text of the printing and typesetting 
-							industry. 		
+							Sirketlerle gorusub vakansiya alib ,Teleblere uygun iscinin tapilmasi
 						</Typography>					
 					</Box>
 
@@ -202,14 +201,13 @@ const Resume = () => {
 					</Typography>
 					<Box component="div" className={classes.timeLineItem}>
 						<Typography variant="h5" align="center" className={classes.subHeading}>
-							Web Desing
+							Sahibkar
 						</Typography>	
 						<Typography variant="body1" align="center">
-							company name whre worked							
+							Silver Club							
 						</Typography>
 						<Typography variant="subtitle1" align="center">
-							Lorem Ipsum is simply dummy text of the printing and typesetting 	
-							industry. 	
+							.............
 						</Typography>			
 					</Box>
 
@@ -219,19 +217,30 @@ const Resume = () => {
 					</Typography>
 					<Box component="div" className={classes.timeLineItem}>
 						<Typography variant="h5" align="center" className={classes.subHeading}>
-							Web Desing					
+							Kassir					
 						</Typography>	
 						<Typography variant="body1" align="center">
-							
-							company name whre worked
+							Lasvegas
 						</Typography>	
 						<Typography variant="subtitle1" align="center">
-							
-							Lorem Ipsum is simply dummy text of the printing and typesetting 
-								
-							industry. 	
+							Malin vurulmasi ,pulun alinmasi,gun sonu kassanin tehvil verimesi,hesabatlarin verilmesi
 						</Typography>		
 					</Box>
+
+					<Typography variant="h2" className={`${classes.timeLinerYear} ${classes.timeLineItem}`}>
+						2020
+					</Typography>
+				<Box component="div" className={classes.timeLineItem}>
+					<Typography variant="h5" align="center" className={classes.subHeading}>
+						FrontEnd Developer					
+					</Typography>
+					<Typography variant="body1" align="center">
+						Freelancer						
+					</Typography>
+					<Typography variant="subtitle1" align="center">
+						Sayt yigilmasi ve vaxtinda tehvil verilmesi
+					</Typography>					
+				</Box>
 				</Box>
 			</Box>
 		</>
